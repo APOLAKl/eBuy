@@ -50,7 +50,7 @@ router.put('/:id', async (req, res) => {
       req.body,
       {
         where: {
-          id: req.params.id
+          id: req.params.id,
         }
       }
     )
